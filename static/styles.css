@@ -1,0 +1,21 @@
+body {
+    background: linear-gradient(135deg, #74ebd5 0%, #ACB6E5 100%);
+}
+
+.card {
+    border-radius: 1rem;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.carD{
+    background-color: #F8F8E1;
+}
+
+textarea {
+    resize: vertical;
+    
+}
+
+#assignment{
+    border: 1px solid black;
+}

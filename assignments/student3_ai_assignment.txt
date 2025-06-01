@@ -1,0 +1,31 @@
+Assignment: Artificial Intelligence (AI) Basics
+
+1. What is Artificial Intelligence? Explain with examples.
+Answer: Artificial Intelligence is when computers perform tasks usually needing human intelligence, like playing chess or recognizing speech.
+
+2. Describe the differences between weak AI and strong AI.
+Answer: Weak AI is designed for a narrow task, like spam detection, while strong AI would think and reason like a human, which hasn’t been achieved yet.
+
+3. What are the main components of an AI system?
+Answer: Important parts include data, algorithms, processing power, and feedback mechanisms.
+
+4. Explain the concept of machine learning and how it relates to AI.
+Answer: Machine learning is an AI approach where systems improve automatically by learning from data.
+
+5. What are the key differences between supervised, unsupervised, and reinforcement learning?
+Answer: Supervised learning uses examples with known answers, unsupervised finds hidden patterns, and reinforcement learns through rewards or penalties.
+
+6. Describe some real-world applications of Artificial Intelligence in daily life.
+Answer: AI is used in navigation apps, online shopping suggestions, automated customer service, and fitness tracking.
+
+7. What are the ethical concerns and challenges associated with AI?
+Answer: Ethical concerns include bias in algorithms, misuse of personal data, and the threat to jobs.
+
+8. How does Natural Language Processing (NLP) work in AI systems?
+Answer: NLP allows computers to read, understand, and respond to human language.
+
+9. Explain the role of computer vision in Artificial Intelligence.
+Answer: Computer vision enables AI to “see” and interpret images, important for tasks like object recognition and autonomous driving.
+
+10. What is the future of AI, and how might it impact jobs and society?
+Answer: AI could revolutionize industries, boost efficiency, and create new roles, but it also risks replacing certain jobs.

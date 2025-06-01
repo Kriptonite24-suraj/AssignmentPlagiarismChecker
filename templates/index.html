@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment Plagiarism Checker</title>
+    <link rel="icon" type="image/x-icon" href="../static/icons8-favicon-48.png">
+    <link rel="stylesheet" href="../static/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-light">
+    <div class="container mt-5">
+        <div class="card">
+            <div class="card-header bg-primary text-white">
+                <h3 class="mb-0">Assignment Plagiarism Checker</h3>
+            </div>
+            <div class="card-body carD">
+                <form method="POST" enctype="multipart/form-data" id="plagiarism-form">
+                    <div class="mb-3">
+                        <label for="assignment" class="form-label">Paste your assignment here:</label>
+                        <textarea class="form-control" id="assignment" name="assignment"
+                            rows="10">{{ request.form['assignment'] if request.method == 'POST' else '' }}</textarea>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="file" class="form-label">Or upload assignment file (.txt, .pdf, .docx):</label>
+                        <input class="form-control" type="file" id="file" name="file" accept=".txt,.pdf,.doc,.docx">
+                    </div>
+
+                    <button type="submit" class="btn btn-success">Check for Plagiarism</button>
+                    <button type="button" class="btn btn-secondary" onclick="resetPage();">Reset</button>
+                </form>
+
+                {% if result %}
+                <div class="alert alert-info mt-4">
+                    <h5>Result:</h5>
+                    <ul class="list-group list-group-flush">
+                        {% for item in result %}
+                        <li class="list-group-item">
+                            <pre style="white-space: pre-wrap; margin:0;">{{ item }}</pre>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                {% endif %}
+
+                {% if ask_to_save %}
+                <div class="mt-4">
+                    <form action="/save" method="post">
+                        <p>This appears to be an original submission. Do you want to save it to the database?</p>
+                        <button type="submit" class="btn btn-primary">Yes, Save</button>
+                        <a href="/" class="btn btn-danger">No, Discard</a>
+                    </form>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function resetPage() {
+            document.getElementById("plagiarism-form").reset();
+            window.location.href = window.location.href.split('?')[0];
+        }
+    </script>
+</body>
+
+</html>

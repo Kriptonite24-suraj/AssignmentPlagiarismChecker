@@ -1,0 +1,31 @@
+Assignment: Artificial Intelligence (AI) Basics
+
+1. What is Artificial Intelligence? Explain with examples.
+Answer: Artificial Intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think, reason, and make decisions. Examples include Siri, Alexa, self-driving cars, and recommendation systems like Netflix or Amazon.
+
+2. Describe the differences between weak AI and strong AI.
+Answer: Weak AI, also known as narrow AI, is designed to perform a specific task, like voice assistants or spam filters. Strong AI, on the other hand, refers to machines that possess human-like cognitive abilities, such as reasoning and problem-solving, which do not yet exist today.
+
+3. What are the main components of an AI system?
+Answer: The main components of an AI system include data, algorithms, computing power, and a feedback mechanism. Data provides the input, algorithms process the data, computing power enables efficient calculations, and feedback allows learning and improvement.
+
+4. Explain the concept of machine learning and how it relates to AI.
+Answer: Machine Learning (ML) is a subset of AI that focuses on enabling machines to learn from data without being explicitly programmed. It helps AI systems improve their performance over time by identifying patterns and making predictions or decisions.
+
+5. What are the key differences between supervised, unsupervised, and reinforcement learning?
+Answer: Supervised learning uses labeled data to train models, unsupervised learning works with unlabeled data to find hidden patterns, and reinforcement learning involves learning through trial and error by receiving rewards or penalties for actions taken.
+
+6. Describe some real-world applications of Artificial Intelligence in daily life.
+Answer: AI applications in daily life include virtual assistants, personalized recommendations, facial recognition, autonomous vehicles, chatbots, fraud detection, and smart home devices like thermostats or lights.
+
+7. What are the ethical concerns and challenges associated with AI?
+Answer: Ethical concerns include job displacement, bias in algorithms, lack of transparency, data privacy issues, and the potential misuse of AI in surveillance or warfare. Addressing these challenges requires responsible AI development and regulations.
+
+8. How does Natural Language Processing (NLP) work in AI systems?
+Answer: NLP enables AI systems to understand, interpret, and generate human language. It involves tasks like sentiment analysis, machine translation, and text summarization, using techniques such as tokenization, parsing, and neural networks.
+
+9. Explain the role of computer vision in Artificial Intelligence.
+Answer: Computer vision allows AI systems to interpret and analyze visual information from the world, such as images or videos. Applications include facial recognition, object detection, medical image analysis, and autonomous driving.
+
+10. What is the future of AI, and how might it impact jobs and society?
+Answer: The future of AI holds potential for major advances in healthcare, transportation, education, and more. While AI can increase productivity and innovation, it may also lead to job displacement and require society to adapt through reskilling and updated policies.

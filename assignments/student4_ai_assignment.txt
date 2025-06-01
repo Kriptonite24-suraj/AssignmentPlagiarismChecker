@@ -1,0 +1,31 @@
+Assignment: Artificial Intelligence (AI) Basics
+
+1. What is Artificial Intelligence? Explain with examples.
+Answer: AI is the process of making computers act like humans, such as understanding speech or making decisions. Examples include self-driving cars and chatbots.
+
+2. Describe the differences between weak AI and strong AI.
+Answer: Weak AI specializes in one task, while strong AI would be able to understand and perform any intellectual task a human can do.
+
+3. What are the main components of an AI system?
+Answer: Key components are input data, algorithms to process it, hardware for computation, and mechanisms to learn and adapt.
+
+4. Explain the concept of machine learning and how it relates to AI.
+Answer: Machine learning lets AI systems get better at tasks by learning from data rather than following hard-coded rules.
+
+5. What are the key differences between supervised, unsupervised, and reinforcement learning?
+Answer: Supervised learning uses labeled examples, unsupervised finds structure in unlabeled data, and reinforcement learns through interaction and rewards.
+
+6. Describe some real-world applications of Artificial Intelligence in daily life.
+Answer: Examples include Netflix recommendations, voice assistants, smart cameras, and fraud detection.
+
+7. What are the ethical concerns and challenges associated with AI?
+Answer: Challenges include algorithmic bias, lack of privacy, unemployment, and the need for regulations.
+
+8. How does Natural Language Processing (NLP) work in AI systems?
+Answer: NLP allows machines to interpret human language to answer questions, translate text, or summarize information.
+
+9. Explain the role of computer vision in Artificial Intelligence.
+Answer: Computer vision enables machines to process visual inputs like photos or video to detect and classify objects.
+
+10. What is the future of AI, and how might it impact jobs and society?
+Answer: AI will bring major changes, improving many areas but also raising concerns about job losses and fairness.
