@@ -1,6 +1,6 @@
 # AssignmentPlagiarismChecker
 
-he Assignment Plagiarism Checker Using AI is an intelligent system developed to detect plagiarism in student assignments. The core objective is to ensure academic integrity by identifying copied or highly similar content among submissions. Built using Python and AI-based text comparison techniques, the system streamlines the process of plagiarism detection and provides accurate results in real-time.
+The Assignment Plagiarism Checker Using AI is an intelligent system developed to detect plagiarism in student assignments. The core objective is to ensure academic integrity by identifying copied or highly similar content among submissions. Built using Python and AI-based text comparison techniques, the system streamlines the process of plagiarism detection and provides accurate results in real-time.
 
 The application supports both text input and file uploads (.txt, .pdf, .doc, .docx), allowing users to submit assignments conveniently. Each input undergoes a normalization process, where punctuation, symbols, case differences, and extra spaces are removed. This ensures that semantic similarity is prioritized over surface-level formatting differences.
 
