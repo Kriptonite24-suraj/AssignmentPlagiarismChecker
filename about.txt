@@ -100,3 +100,98 @@ User login system for students and teachers
 Admin dashboard to view/download past checks
 
 PDF export of results
+
+
+You can generate this yourself after installing packages with:
+
+
+pip freeze > requirements.txt
+But I included key ones you need.
+
+README.md
+# Assignment Plagiarism Checker
+
+A Flask web application to detect plagiarism in student assignments by comparing input text or uploaded files (txt, pdf, doc/docx) against a stored dataset and past submissions.
+
+## Features
+
+- Paste assignment text or upload `.txt`, `.pdf`, `.doc`, `.docx` files for plagiarism checking.
+- Uses simple text matching to find similarities.
+- Stores submissions and results in SQLite database.
+- View submission history with timestamps and filenames.
+- Clean and responsive Bootstrap-based UI.
+
+## Setup & Installation
+
+1. Clone the repo:
+   ```bash
+   git clone <your-repo-url>
+   cd plagiarism-checker
+(Optional but recommended) Create a virtual environment:
+
+bash
+Copy
+Edit
+python -m venv venv
+source venv/bin/activate     # Linux/macOS
+venv\Scripts\activate        # Windows
+Install dependencies:
+
+bash
+Copy
+Edit
+pip install -r requirements.txt
+Run the app:
+
+bash
+Copy
+Edit
+python app.py
+Open your browser and visit:
+
+cpp
+Copy
+Edit
+http://127.0.0.1:5000/
+Usage
+Paste your assignment text or upload a file.
+
+Click Check for Plagiarism.
+
+View results and optionally check submission history.
+
+Folder Structure
+plagiarism-checker/
+├── app.py
+├── database.py
+├── plagiarism_checker.py
+├── uploads/
+├── static/
+│   ├── styles.css
+│   └── icons8-favicon-48.png
+└── templates/
+    ├── index.html
+    └── history.html
+Dependencies
+Flask
+
+python-docx
+
+PyMuPDF
+
+License
+MIT License (or your preferred license)
+
+# to check the database contents
+sqlite3 plagiarism.db
+  SELECT filename,id, LENGTH(content) as size, timestamp FROM submissions;
+
+# running the app
+python app.py or flask run
+
+# removing the last saved data in the database(from id)
+
+DELETE FROM submissions WHERE id = (SELECT MAX(id) FROM submissions);
+
+
+
